@@ -2,7 +2,7 @@
 package chamadordesenha;
 
 //Essa classe sera responsável pela atribuição, geração, adição e chamadas de senha.
-public class MétodosSenha {
+public class Senha {
     
     int senha = 0;
     int anterior;
@@ -22,10 +22,10 @@ public class MétodosSenha {
     }
     
     
-    public MétodosSenha() {
+    public Senha() {
     }
 
-    public MétodosSenha(int anterior) {
+    public Senha(int anterior) {
         this.anterior = anterior;
     }
     

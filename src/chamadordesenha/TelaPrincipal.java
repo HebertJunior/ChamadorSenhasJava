@@ -4,16 +4,17 @@
  */
 package chamadordesenha;
 
+import java.awt.Color;
+
 /**
  *
  * @author heber
  */
 public class TelaPrincipal extends javax.swing.JFrame {
 
-    /**
-     * Creates new form TelaPrincipal
-     */
+    
     public TelaPrincipal() {
+        getContentPane().setBackground(Color.BLACK);
         initComponents();
     }
 
@@ -32,17 +33,22 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(51, 51, 51));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("SENHA");
 
         senha2.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
+        senha2.setForeground(new java.awt.Color(255, 255, 255));
         senha2.setText("000");
 
         guiche.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
+        guiche.setForeground(new java.awt.Color(255, 255, 255));
         guiche.setText("000");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("GUICHÉ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
